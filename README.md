@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/5M5nDqy/706056af0d5b1a8ee37282b65d7a857f.gif" alt="AKBAR" width="170" />
+<img src="https://i.ibb.co/5M5nDqy/706056af0d5b1a8ee37282b65d7a857f.gif" alt="HELMI" width="170" />
 
 ## Helmi bot
 
@@ -11,7 +11,7 @@
   <a href="" /></a>
 </p>
 <p align="center">
-<a href="#"><img title="MONSTER" src="https://img.shields.io/static/v1?label=WHATSAPP&message=Automated-Bot&color=blue"></a>
+<a href="#"><img title="SEAGM" src="https://img.shields.io/static/v1?label=WHATSAPP&message=Automated-Bot&color=blue"></a>
 </p>
 
 
@@ -43,7 +43,7 @@ heroku/nodejs
 # Installation
 ## Clone Repo & Installation dependencies
 ```bash
-🌠 git clone https://github.com/akbarbotz/akbarbotz.git
+🌠 git clone https://github.com/Bapak017/bot-kucing-
 🌠 cd MonsterBot
 🌠 npm start
 ```
